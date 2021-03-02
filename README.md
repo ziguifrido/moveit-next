@@ -13,4 +13,26 @@
 
 Projeto criado durante a Next Level Week 4 na trilha React.js.
 
-![teste](/public/print.png)
+![Print](/public/print.png)
+
+## Executar o Projeto localmente
+
+- Clone o repositório:
+
+> `git clone https://github.com/ziguifrido/moveit-next.git`
+
+- Vá para a pasta do Projeto:
+
+> `cd moveit-next`
+
+- Instale as dependências:
+
+> `yarn install`
+
+- Execute o projeto:
+
+> `yarn dev`
+
+- Acesse a aplicação no navegador:
+
+> [http://localhost:3000](http://localhost:3000)
