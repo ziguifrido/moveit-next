@@ -1,0 +1,91 @@
+.overlay {
+  background: rgba(242, 243, 245, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: var(--white);
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0,05);
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.container strong {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.container input {
+  height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid var(--gray-line);
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.container div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.container div button {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: filter 0.2s;
+  flex: 1;
+}
+
+.confirmar {
+  background-color: var(--blue);
+}
+
+.confirmar:disabled {
+  cursor: not-allowed;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.anonimo {
+  background-color: var(--red);
+}
+
+.container div button:hover {
+  filter: brightness(0.9);
+}
+
+.container img {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  background: none;
+  border: 0;
+  font-size: 0;
+  cursor: pointer;
+}

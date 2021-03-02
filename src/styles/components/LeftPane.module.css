@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: var(--white);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container svg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.container svg:hover {
+  fill: var(--black);
+  cursor: pointer;
+}

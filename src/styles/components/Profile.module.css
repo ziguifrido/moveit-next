@@ -9,6 +9,11 @@
   border-radius: 50%;
 }
 
+.profileContainer > svg {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
 .profileContainer div {
   margin-left: 1.5rem;
 }
