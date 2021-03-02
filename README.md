@@ -15,6 +15,24 @@ Projeto criado durante a Next Level Week 4 na trilha React.js.
 
 ![Print](/public/print.png)
 
+## Resumo
+
+Usando como referência o método Pomodoro, o MoveIt incentiva o seu usuário a sair da inércia e se movimentar. Criado com o foco em desenvolvedores, o projeto visa ajudar pessoas que trabalham muitas horas em frente ao computador sem lembrar de se levantar. Utilizando a ideia de gamificação, através de desafios valendo pontos (xp), o MoveIt busca tornar o dia a dia corrido do seu usuário um pouco mais divertido. 
+
+## Como Utilizar
+
+### 🖥️ Primeiro Acesso
+
+No seu primeiro acesso o MoveIt irá solicitar a permissão de notificação para poder te avisar quando um novo desafio estiver disponível. Também no primeiro acesso, será possível preencher o seu usuário do GitHub, para o carregamento de sua foto e nome, ou escolher a opção de utilizar a aplicação de forma anônima. **As suas informações serão salvas apenas no seu navegador, independente da opção escolhida!** 
+
+### ⌛ Temporizador
+
+Ao clicar em `Iniciar um ciclo` se dá início uma contagem regressiva de 25 minutos. Ao fim da contagem você será notificado sobre um novo desafio. Execute o desafio para ganhar pontos e evoluir o seu nível. Caso não realize o desafio ou precise abandonar o ciclo seu temporizador irá reiniciar para os 25 minutos.
+
+### ⬆️ Evolua seu nível
+
+A cada desafio completado você ganha pontos, e juntando um determinado número de pontos você sobe de nível! Acompanhe seu progresso na barra de xp.
+
 ## Executar o Projeto localmente
 
 - Clone o repositório:
