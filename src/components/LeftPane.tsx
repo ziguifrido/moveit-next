@@ -9,6 +9,7 @@ export function LeftPane() {
 
   return (
     <div className={styles.container}>
+      <img src="/logo.svg" alt="MoveIt"/>
       <div>
         <IoPersonCircleOutline onClick={openUsernameModal} title="Alterar Perfil"/>
         <a href="https://github.com/ziguifrido/moveit-next" target="_blank" title="GitHub">

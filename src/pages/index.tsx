@@ -35,7 +35,22 @@ export default function Home(props: HomeProps) {
         </div>
         <div className={styles.main}>
           <Head>
-            <title>Início | move.it</title>
+            <title>Início | MoveIt</title>
+            <meta name="description" content="Temporizador estilo pomodoro com gamificação." />
+
+            <meta property="og:url" content="https://moveit.marcosoliveira.dev" />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="MoveIt" />
+            <meta property="og:description" content="Temporizador estilo pomodoro com gamificação." />
+            <meta property="og:image" content="/print_og.png" />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta property="twitter:domain" content="moveit.marcosoliveira.dev" />
+            <meta property="twitter:url" content="https://moveit.marcosoliveira.dev" />
+            <meta name="twitter:title" content="MoveIt" />
+            <meta name="twitter:description" content="Temporizador estilo pomodoro com gamificação." />
+            <meta name="twitter:image" content="/print_og.png" />
+
           </Head>
 
           <ExperienceBar />
