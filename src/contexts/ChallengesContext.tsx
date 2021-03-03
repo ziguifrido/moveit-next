@@ -64,6 +64,8 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
   }, [level, currentExperience, challengesCompleted, username])
 
   function levelUp() {
+    new Audio('/notification.mp3').play()
+    
     setLevel(level + 1)
     setIsLevelUpModalOpen(true)
   }
@@ -105,12 +107,9 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
     if (Notification.permission === 'granted') {
       new Notification('Novo Desafio 🎉', {
         body: `Valendo ${challenge.amount} xp!`,
-        icon: '/favicon.png',
-        silent: true
+        icon: '/favicon.png'
       })
     }
-
-    new Audio('/notification.mp3').play()
   }
 
   function resetChallenge() {
